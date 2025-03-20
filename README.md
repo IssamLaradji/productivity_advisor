@@ -15,13 +15,24 @@
    ```
 2. Navigate to the folder:
    ```bash
-   cd PeakOptimizer
+   cd productivity_advisor
    ```
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the Flask app:
+
+4. Set up your Together AI API key:
+   - Create a file named `api_keys.json` in the root directory
+   - Add your API key in the following format:
+     ```
+     {"together":"your_api_key_here"}
+     ```
+   - You can obtain an API key by:
+     - Asking Issam for access, or
+     - Creating an account at [together.ai](https://together.ai) and generating a key
+
+5. Run the Flask app:
    ```bash
    python main.py
    ```
